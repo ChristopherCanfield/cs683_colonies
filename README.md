@@ -1,5 +1,5 @@
-cs683_colonies
-==============
+Colonies
+========
 
 BU MET CS683: Colonies App
 
@@ -22,4 +22,4 @@ As with any real app, there are many instances where best practices were not fol
 
 However, despite the shortcomings I was able to turn in a complete medium-scale app, which my 10 year-old neice enjoys, so I rate the project as a success.
 
-- Christopher D. Canfield
+Christopher D. Canfield
