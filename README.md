@@ -3,7 +3,7 @@ Colonies
 
 BU MET CS683: Colonies App
 
-Colonies is the project I created for the BU MET CS683: Mobile Application Development course, which I took in Spring 2013. It is a game / software toy / virtual life simulator. The user can select attributes for groups (colonies) of organisms, and then place the organisms on the screen and watch them grow, reproduce, smile/frown and die. My niece wanted to be able to pop the organisms, so that's possible as well.
+Colonies is an Android application that I created for the BU MET CS683: Mobile Application Development course, which I took in Spring 2013. It is a game / software toy / virtual life simulator. The user can select attributes for groups (colonies) of organisms, and then place the organisms on the screen and watch them grow, reproduce, smile/frown and die. My niece wanted to be able to pop the organisms, so that's possible as well.
 
 Android functionality:
 * Explicit Intents, including passing data between Activities using Bundles and startActivityForResult()
