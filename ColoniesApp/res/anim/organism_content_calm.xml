@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <!-- The animations for content organisms -->
+    <item android:drawable="@drawable/organism_content_default" android:duration="4500" />
+	<item android:drawable="@drawable/organism_content_expression_00" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_01" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_02" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_03" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_default" android:duration="5500" />
+	<item android:drawable="@drawable/organism_content_expression_08" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_09" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_05" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_02" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_10" android:duration="3500" />
+	<item android:drawable="@drawable/organism_content_expression_02" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_03" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_09" android:duration="200" />
+	<item android:drawable="@drawable/organism_content_expression_05" android:duration="200" />
+</animation-list>

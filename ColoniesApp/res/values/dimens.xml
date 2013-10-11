@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="newcolony_label_top_margin">20dp</dimen>
+    <dimen name="main_menu_button_side_margin">20dp</dimen>
+    <dimen name="main_menu_button_bottom_margin">10dp</dimen>
+    <dimen name="main_menu_title_bottom_margin">30dp</dimen>
+    <dimen name="main_menu_title_top_margin">20dp</dimen>
+</resources>

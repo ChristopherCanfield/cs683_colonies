@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <!-- The animations for unhappy organisms -->
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="3650" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="4200" />
+    <item android:drawable="@drawable/organism_unhappy_2_4" android:duration="4850" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="5000" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="3250" />
+    <item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_02" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_02" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="2250" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="4500" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="5000" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="2250" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="1500" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_3" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_3" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="3750" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="3850" />
+</animation-list>

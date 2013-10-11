@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <!-- The growth animations for organisms, from baby to adult -->
+    <item android:drawable="@drawable/organism_grow_00" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_01" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_02" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_03" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_04" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_05" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_06" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_07" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_08" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_09" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_10" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_11" android:duration="200" />
+    <item android:drawable="@drawable/organism_grow_12" android:duration="200" />
+    <item android:drawable="@drawable/organism_content_expression_10" android:duration="200" />
+</animation-list>

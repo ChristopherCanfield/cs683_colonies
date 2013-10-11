@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <!-- The animations for content organisms -->
+    <item android:drawable="@drawable/organism_pop_00" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_01" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_02" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_03" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_04" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_05" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_06" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_07" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_08" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_09" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_10" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_11" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_12" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_13" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_14" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_15" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_16" android:duration="100" />
+    <item android:drawable="@drawable/organism_pop_17" android:duration="100" />
+    <item android:drawable="@drawable/organism_blank" android:duration="100" />
+</animation-list>

@@ -1,0 +1,214 @@
+<ScrollView
+	android:id="@+id/scrollView1"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#2D2D2D" >
+        <!-- alternative bg: #191919 -->
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#191919"
+	    android:orientation="vertical"
+	    android:scrollbars="vertical"
+	    tools:context=".NewColonyActivity" >
+	
+	    <TextView
+	        android:id="@+id/newcolony_nameLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/newcolony_label_top_margin"
+	        android:text="@string/newcolony_name"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <EditText
+	        android:id="@+id/newcolony_nameText"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/newcolony_nameTextHint"
+	        android:inputType="text|textNoSuggestions" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/newcolony_maxAgeLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="40dp"
+	        android:text="@string/newcolony_max_age"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <SeekBar
+	        android:id="@+id/newcolony_maxAgeSeekBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="false"
+	        android:max="4"
+	        android:progress="2" />
+
+	    <TextView
+	        android:id="@+id/newcolony_maxAgeDisplay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <TextView
+	        android:id="@+id/newcolony_maxHealthLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/newcolony_label_top_margin"
+	        android:text="@string/newcolony_health"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <SeekBar
+	        android:id="@+id/newcolony_maxHealthSeekBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="false"
+	        android:max="4"
+	        android:progress="2" />
+	    
+	    <TextView
+	        android:id="@+id/newcolony_maxHealthDisplay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <TextView
+	        android:id="@+id/newcolony_heatPreferenceLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/newcolony_label_top_margin"
+	        android:text="@string/newcolony_heat_pref"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <SeekBar
+	        android:id="@+id/newcolony_heatPreferenceSeekBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="false"
+	        android:max="4"
+	        android:progress="2" />
+	    
+	    <TextView
+	        android:id="@+id/newcolony_heatPreferenceDisplay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <TextView
+	        android:id="@+id/newcolony_crowdPreferenceLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/newcolony_label_top_margin"
+	        android:text="@string/newcolony_crowd_pref"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <SeekBar
+	        android:id="@+id/newcolony_crowdPreferenceSeekBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="false"
+	        android:max="4"
+	        android:progress="2" />
+	    
+	    <TextView
+	        android:id="@+id/newcolony_crowdPreferenceDisplay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+	    <TextView
+	        android:id="@+id/newcolony_reproductiveFrequencyLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/newcolony_label_top_margin"
+	        android:text="@string/newcolony_reproduction_freq"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <SeekBar
+	        android:id="@+id/newcolony_reproductiveFrequencySeekBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="false"
+	        android:max="3"
+	        android:progress="1" />
+	    
+	    <TextView
+	        android:id="@+id/newcolony_reproductiveFrequencyDisplay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <TextView
+	        android:id="@+id/newcolony_initialOrganismsCountLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/newcolony_label_top_margin"
+	        android:text="@string/newcolony_initial_count"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <SeekBar
+	        android:id="@+id/newcolony_initialOrganismsCountSeekBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="false"
+	        android:max="5"
+	        android:progress="2" />
+	    
+	    <TextView
+	        android:id="@+id/newcolony_initialOrganismsCountDisplay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/newcolony_label_top_margin" >
+
+	        <TableRow
+	            android:id="@+id/tableRow1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="#000000" >
+
+	            <!-- Android style puts cancel button on the left -->
+	            
+	            <Button
+	                android:id="@+id/newcolony_cancelButton"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="bottom|left"
+	                android:layout_weight="1"
+	                android:text="@string/newcolony_cancel_button" />
+	            
+	            <Button
+	                android:id="@+id/newcolony_createButton"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="bottom|right"
+	                android:layout_weight="1"
+	                android:text="@string/newcolony_create_button" />
+	            
+	        </TableRow>
+
+	    </TableLayout>
+
+	</LinearLayout>
+</ScrollView>

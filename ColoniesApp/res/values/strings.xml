@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Colonies</string>
+
+    <!-- Main Menu items -->
+    <string name="main_menu_continue">Continue</string>
+    <string name="main_menu_new">New Game</string>
+    <string name="main_menu_how_to_play">How to Play</string>
+    <string name="main_menu_statistics">Stats</string>
+    <string name="main_menu_settings">Settings</string>
+
+    <!-- Game screen items -->
+    <string name="gs_add_new_colony">Add</string>
+    <string name="gs_pop">Pop</string>
+    <string name="gs_status_happiness">Happiness:</string>
+    <string name="gs_status_crowd_happiness">Crowd Happiness:</string>
+    <string name="gs_status_happiness_happy">happy</string>
+    <string name="gs_status_happiness_content">content</string>
+    <string name="gs_status_happiness_unhappy">unhappy</string>
+    <string name="gs_status_happiness_dead">dead</string>
+    <string name="gs_status_age">Age:</string>
+    <string name="gs_status_colony_name">Colony:</string>
+    <string name="gs_status_children">Children:</string>
+
+    <!-- New colony screen -->
+    <string name="newcolony_title">New Colony</string>
+    <string name="newcolony_name">Name</string>
+    <string name="newcolony_max_age">Max Age</string>
+    <string name="newcolony_health">Health</string>
+    <string name="newcolony_heat_pref">Heat Preference</string>
+    <string name="newcolony_crowd_pref">Crowd Preference</string>
+    <string name="newcolony_reproduction_freq">Reproduction Frequency</string>
+    <string name="newcolony_initial_count">Initial Organisms Count</string>
+    <string name="newcolony_create_button">Create</string>
+    <string name="newcolony_cancel_button">Cancel</string>
+
+    <!-- How to play screen items -->
+    <string name="htp_gameplay_overview_00">Set the initial traits and preferences for a colony, and then let the organisms loose. Once they\'ve been released, you no longer have direct control over the organisms in the colony.</string>
+    <string name="htp_gameplay_overview_new_colony">Add new colonies by pressing the Add Colony button at the bottom.</string>
+    <string name="htp_new_colony_screen">To create the new colony, set the colony\'s initial traits and preferences using the sliders, tap create at the bottom, and then tap any blank area on the game screen.</string>
+    <string name="htp_organisms_die_overview">Organisms die from old age and from unhappiness</string>
+    <string name="htp_happiness_overview">Happiness is impacted by multiple factors, including distance from heat, distance from food, and crowdedness</string>
+    <string name="htp_reproduction_00">Happy organisms reproduce more frequently than unhappy ones</string>
+    <string name="htp_reproduction_01">Children inherit traits from their parents</string>
+    <string name="htp_goals">There are no specific goals. Try different combinations of starting traits and preferences, and watch your colonies expand, become happy or unhappy, and die out. You are the creator!</string>
+
+    <!-- Stats screen -->
+    <string name="stats_average_happiness_level">Average happiness</string>
+    <string name="stats_average_happy">Average happy</string>
+    <string name="stats_average_content">Average content</string>
+    <string name="stats_average_unhappy">Average unhappy</string>
+    <string name="stats_total_number_alive">Total alive</string>
+    <string name="stats_total_number_dead">Total dead</string>
+    <string name="stats_max_alive">Max alive</string>
+    <string name="stats_max_dead">Max dead</string>
+    <string name="stats_title">Game Stats - All Games</string>
+    <string name="title_activity_new_colony">NewColonyActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_how_to_play">HowToPlayActivity</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="newcolony_nameTextHint">Colony Name</string>
+    <string name="title_activity_how_to_play2">HowToPlay2Activity</string>
+
+</resources>

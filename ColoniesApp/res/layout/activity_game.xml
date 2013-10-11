@@ -1,0 +1,848 @@
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/gameGridLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+   	android:layout_gravity="fill_vertical|fill_horizontal"
+    android:layout_margin="0dp"
+    android:fitsSystemWindows="true"
+    android:gravity="fill_vertical|fill_horizontal"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:weightSum="9"
+    android:background="#99CC00"
+    tools:context=".GameActivity" >
+
+    <TableRow
+        android:id="@+id/mapRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        
+        <ImageView
+            android:id="@+id/grid_0_0"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_0_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_0_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_0_3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_0_4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_0_5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_0_6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/mapRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        
+        <ImageView
+            android:id="@+id/grid_1_0"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_1_1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_1_2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_1_3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_1_4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+		<ImageView
+		    android:id="@+id/grid_1_5"
+		    android:layout_width="45dp"
+		    android:layout_height="45dp"
+		    android:adjustViewBounds="true"
+		    android:baselineAlignBottom="true"
+		    android:clickable="true"
+		    android:longClickable="true"
+		    android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/grid_1_6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:clickable="true"
+            android:longClickable="true"
+            android:scaleType="centerInside" />
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/mapRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <ImageView
+	        android:id="@+id/grid_2_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_2_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_2_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_2_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_2_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+
+		<ImageView
+	        android:id="@+id/grid_2_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_2_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/mapRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <ImageView
+	        android:id="@+id/grid_3_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_3_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_3_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_3_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_3_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_3_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+        
+        <ImageView
+	        android:id="@+id/grid_3_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/mapRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+		<ImageView
+	        android:id="@+id/grid_4_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_4_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_4_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_4_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_4_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_4_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+        
+        <ImageView
+	        android:id="@+id/grid_4_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/mapRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+		<ImageView
+	        android:id="@+id/grid_5_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_5_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_5_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_5_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_5_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_5_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+        
+        <ImageView
+	        android:id="@+id/grid_5_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/mapRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+		<ImageView
+	        android:id="@+id/grid_6_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_6_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_6_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_6_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_6_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_6_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+        
+        <ImageView
+	        android:id="@+id/grid_6_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/mapRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+		<ImageView
+	        android:id="@+id/grid_7_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_7_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_7_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_7_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_7_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_7_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+        
+        <ImageView
+	        android:id="@+id/grid_7_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/mapRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <ImageView
+	        android:id="@+id/grid_8_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_8_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_8_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_8_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_8_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_8_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+        
+        <ImageView
+	        android:id="@+id/grid_8_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/mapRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <ImageView
+	        android:id="@+id/grid_9_0"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_9_1"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_9_2"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_9_3"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_9_4"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+        
+        <ImageView
+	        android:id="@+id/grid_9_5"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />        
+        
+        <ImageView
+	        android:id="@+id/grid_9_6"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:adjustViewBounds="true"
+	        android:baselineAlignBottom="true"
+	        android:clickable="true"
+            android:longClickable="true"
+	        android:scaleType="centerInside" />
+    </TableRow>
+
+	<RelativeLayout
+	    android:id="@+id/newColonyLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom"
+	    android:layout_weight="1"
+	    android:background="#000000"
+	    android:clickable="true"
+	    android:paddingTop="5dp" >
+            
+        <ImageView
+            android:id="@+id/newColonyImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/gs_add_new_colony"
+            android:gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:src="@drawable/organism_add" />
+
+		<TextView
+		    android:id="@+id/newColonyText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="50dp"
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@id/newColonyImage"
+		    android:clickable="true"
+		    android:gravity="center_vertical"
+		    android:labelFor="@id/newColonyImage"
+		    android:paddingLeft="15dp"
+		    android:text="@string/gs_add_new_colony"
+		    android:textColor="#33B5E5"
+		    android:textColorLink="@color/black_overlay"
+		    android:textSize="35sp"
+		    android:typeface="sans" />
+		
+		<TextView
+		    android:id="@+id/popOrganismText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="50dp"
+		    android:layout_centerVertical="true"
+		    android:layout_alignParentRight="true"
+		    android:clickable="true"
+		    android:gravity="center_vertical"
+		    android:labelFor="@id/newColonyImage"
+		    android:paddingLeft="15dp"
+		    android:paddingRight="30dp"
+		    android:text="@string/gs_pop"
+		    android:textColor="#33B5E5"
+		    android:textColorLink="@color/black_overlay"
+		    android:textSize="35sp"
+		    android:typeface="sans" />
+
+     </RelativeLayout>
+     
+</TableLayout>

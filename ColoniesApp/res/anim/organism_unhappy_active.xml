@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <!-- The animations for unhappy organisms -->
+    <item android:drawable="@drawable/organism_unhappy_1_5" android:duration="550" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="2750" />
+	<item android:drawable="@drawable/organism_unhappy_roll_left_00" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_roll_left_01" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_roll_left_00" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="1750" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="175" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_3" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_2_4" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="2650" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_02" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_02" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_01" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="100" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="4150" />
+	<item android:drawable="@drawable/organism_unhappy_roll_right_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_roll_right_01" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_roll_right_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_roll_left_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_roll_left_01" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_roll_left_00" android:duration="125" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="3650" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="175" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_squeeze_00" android:duration="150" />
+	<item android:drawable="@drawable/organism_unhappy_1_5" android:duration="2250" />
+	<item android:drawable="@drawable/organism_unhappy_default" android:duration="3250" />
+</animation-list>
