@@ -20,6 +20,6 @@ Android functionality:
 
 As with any real app, there are many instances where best practices were not followed. In particular, the way I laid out the screen is inefficient (too many views and too much nesting) and does not scale properly to all screen layouts. I should have drawn the images directly, instead of using ImageViews. Additionally, the quality of my code and comments fell as the end of the semester approached. The simulation component is also not nearly as advanced as I would have liked, but then this was a Mobile Application Development course, not an AI course.
 
-However, despite the shortcomings I was able to turn in a complete medium-scale app, which my 10 year-old neice enjoys, so I rate the project as a success.
+However, despite the shortcomings I was able to turn in a completed medium-scale app that makes use of many Android features, and which my 10 year-old niece enjoys, so I rate the project as a success.
 
 Christopher D. Canfield
